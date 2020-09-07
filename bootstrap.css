@@ -1,16 +1,3 @@
-/*!
- * Bootswatch v4.3.1
- * Homepage: https://bootswatch.com
- * Copyright 2012-2019 Thomas Park
- * Licensed under MIT
- * Based on Bootstrap
-*/
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
  @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
  :root {
    --blue: #DF691A;
@@ -59,6 +46,7 @@
  
  article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
    display: block;
+   color: #EBEBEB;
  }
  
  body {
@@ -101,5 +89,9 @@
    cursor: help;
    border-bottom: 0;
    text-decoration-skip-ink: none;
+ }
+
+ a {
+  color: #EBEBEB;
  }
  
